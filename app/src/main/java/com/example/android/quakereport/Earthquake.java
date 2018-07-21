@@ -27,7 +27,7 @@ public class Earthquake {
      *                           earthquake happened
      *
      */
-    public Earthquake(double magnitude, String location, long timeInMilliseconds, String url) {
+    Earthquake(double magnitude, String location, long timeInMilliseconds, String url) {
         mMagnitude = magnitude;
         mLocation = location;
         mTimeInMilliseconds = timeInMilliseconds;

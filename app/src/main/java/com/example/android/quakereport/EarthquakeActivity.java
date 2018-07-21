@@ -30,7 +30,7 @@ public class EarthquakeActivity extends AppCompatActivity
 
     /** URL for earthquake data from the USGS dataset */
     private static final String USGS_REQUEST_URL =
-            "https://earthquake.usgs.gov/fdsnws/event/1/query";
+            "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2014-01-01&endtime=2014-02-02";
 
     /**
      * Constant value for the earthquake loader ID. We can choose any integer.
